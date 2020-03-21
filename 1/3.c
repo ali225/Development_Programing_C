@@ -1,4 +1,4 @@
-/* sum and bitwise opertor in c  */
+/* reverc number input user  c  */
 
 #include <stdio.h>
 
