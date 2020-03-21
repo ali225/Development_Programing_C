@@ -4,10 +4,6 @@ void main(void)
 {
 	int array[10];
 	int i;
-	size_t m = calc_length();
-	int value[m];
-	
-	printf("%d",m);
 		
 	for( i=0; i<9; i++)
 	{
