@@ -33,7 +33,10 @@ int main()
 			}
 		}
 	}
-
+	for(i=0; i < 9; i++)
+	{
+		printf("Enter the number of array :%d \n",array[i]);
+	}
 	/************************** Scan the value to search *******************/
 	printf("Please Enter number to search:  ");
 	scanf ("%d",&search);
