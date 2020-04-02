@@ -3,20 +3,21 @@
 void main(void)
 {
 	int array[10];
-	int i,number;
+	int i;
+	int number;
 	int count=0;
-		
+	
+	
 	for( i=0; i<9; i++)
 	{
-		printf("pleas enter number %d:",i);
+		printf("Enter the array :");
 		scanf("%d",&array[i]);
 	}
 	
-	printf("Enter the number you need to count :");
+	printf("Enter the number you need ");
 	scanf("%d",&number);
 	
-	
-	for( i=0 ; i<9; i++)
+	for( i=0; i<9; i++)
 	{
 		if(array[i] == number)
 		{
@@ -24,10 +25,7 @@ void main(void)
 		}
 	}
 	
-	printf("the count number is : %d",count);
-		
-
+	printf("the number of counter is :%d",count);
 	
-	
-	
+	while(1);
 }

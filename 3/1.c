@@ -1,20 +1,20 @@
 #include <stdio.h>
 
-void main(void)
+int  main(void)
 {
+	int i; 
+	int sum = 0; 
 	int array[10];
-	int i;
-	int sum=0;
 	
-	for( i=0; i<9; i++)
+	/*print plesa user input */
+	for(i=0 ; i <=9; i++)
 	{
-		printf("pleas enter number %d:",i);
+		printf("pleas Enter the number of array %d:",i+1);
 		scanf("%d",&array[i]);
-		sum +=array[i];
+		sum+=array[i];
 	}
 	
-	printf("the sum of array = %d",sum);
-
-	
-	
+	/*the out put the array */
+	printf("The sum of array = :%d",sum);
+	while(1);
 }

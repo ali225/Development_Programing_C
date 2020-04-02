@@ -7,6 +7,7 @@ int main()
 	int i,j, n;
 	
 	printf("How many rows in pyramid ?\n");
+	//fflush(stdio);
 	scanf("%d",&n);
 	
 	for(i=1; i<=n; i++)

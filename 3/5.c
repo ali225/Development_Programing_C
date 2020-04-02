@@ -13,21 +13,21 @@ int main()
 	
 	/**************************** Scan the Values *************************/	
 	/* Scan the values loop */
-	for(i=0; i < 9; i++)
+	for( i=0; i<9; i++)
 	{
-		printf("Enter the number of array %d: ",i);
+		printf("Enter the array ");
 		scanf("%d",&array[i]);
 	}
-	
+
 	/**************** Sort the Values using bubble sorting ****************/	
 	/* Sort the values using Bubble sorting */
-	for(i=0 ; i < size-1; i++)
+	for( i=0; i<size-1; i++)
 	{
-		for(j=0 ; j<size-i-1 ; j++)
+		for( j=0; j<size-i-1;j++)
 		{
 			if(array[j] > array[j+1])
 			{
-				z = array[j];
+				z = array[z];
 				array[j] = array[j+1];
 				array[j+1] = z;
 			}

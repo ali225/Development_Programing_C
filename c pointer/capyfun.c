@@ -1,16 +1,17 @@
 #include "stdio.h"
 
 
-	void capy(int* from , int* to, int n )
+void capy(int* from , int* to, int n )
+{
+	int i;
+	
+	for(i=0;i<n;i++)
 	{
-		int i;
-		for(i=0;i<n;i++)
-		{
-			*from = *to;
-			from++;
-			to++;
-		}
+		*from = *to;
+		from++;
+		to++;
 	}
+}
 int  main()	
 {
         int i,y;
